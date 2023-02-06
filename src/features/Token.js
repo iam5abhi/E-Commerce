@@ -1,0 +1,5 @@
+export const AdminToken =()=> window.sessionStorage.getItem('admin-token')
+export const MentorToken =()=> window.sessionStorage.getItem('mentor-token')
+export const StudentToken =()=> window.sessionStorage.getItem('student-token')
+export const EnterpricessToken =()=> window.sessionStorage.getItem('enterpricess-token')
+export const CampusToken =()=> window.sessionStorage.getItem('campus-token')
